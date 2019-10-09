@@ -10,7 +10,7 @@ public class Client {
     /*Class Client not creates an object of Class DataManager, it gets an object of DataManager through Factory class
       Since method in Factory class is static Class Client doesn't  need to create a class of Factory
       Now Class Client is free from the Class DataManager object creation
-      But it still depends on the DataManager, Class client call a method in DataManager, changes in the DataManger still affects the CLient Class
+      But it still depends on the DataManager, Still Client Class uses concrete class of DataManager
     * */
     public Client(){
         dataManager = DataManagerFactory.getDataManagerObject();
