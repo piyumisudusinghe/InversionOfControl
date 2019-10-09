@@ -1,12 +1,11 @@
-package com.company.step3;
+package com.company.step4;
 
 import java.util.HashMap;
 
-public class DataManager implements DataManagerInterface {
+public class DataManager implements DataManagerInterface{
 
     @Override
-    public HashMap<String,String> getClientDetails(int id){
-
+    public HashMap<String, String> getClientDetails(int id) {
         //connect with the database and retrieve the data relevant to the given client id
         System.out.println("Getting details of the client" + id);
         HashMap<String,String>clientDetails = new HashMap<String,String>();

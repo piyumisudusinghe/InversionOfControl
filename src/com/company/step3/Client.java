@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 public class Client {
 
-    public DataMangerInterface dataManager;
+    public DataManagerInterface dataManager;
 
     /*
     Use DIP principle
@@ -12,7 +12,6 @@ public class Client {
     Abstractions should not depend on details. Details should depend on abstractions.
     High level module - Client
     Low level module - DataManager
-    Now Client Class doesn't depend on the DataManager Concrete class, It depends on abstraction
     * */
 
     public Client(){
